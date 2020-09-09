@@ -1,0 +1,49 @@
+/* CSS files add styling rules to your content */
+
+/*
+body {font-family: helvetica, arial, sans-serif; margin: 0em;}
+h1 {font-style: italic; color: #373fff;}
+*/
+
+body {
+    margin: 0em;
+    font-family: "Comic Sans MS", sans-serif;
+    /*font-family: 'Noto Sans', sans-serif;*/
+}
+
+h1, h2, h3, h4, h5 {
+    font-weight: bold;
+    font-family: "Comic Sans MS", sans-serif;
+
+    /*font-family: 'Comic Neue', serif;*/
+}
+
+.cover {
+    height: 400px;
+    color: white;
+    background-image: url("../img/bacground_img_2400x1600.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(155, 155, 155, 1);
+    background-blend-mode: darken;
+}
+
+.cover-small {
+    height: 175px;
+    background-blend-mode: normal;
+}
+
+.card {
+    border: 0 !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+    /*width: 18rem;*/
+}
+
+.card-title {
+    min-height: 3rem;
+    /*background-color: red;*/
+}
+
+.card-text {
+    min-height: 9rem;
+}
