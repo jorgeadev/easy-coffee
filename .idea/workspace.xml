@@ -25,12 +25,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/coffee" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img/slider" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub_Repositories\codigo_facilito\web_page_youtube\img" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\GitHub_Repositories\codigo_facilito\web_page_youtube\img\slider" />
+      <recent name="D:\GitHub_Repositories\codigo_facilito\web_page_youtube\img\bar" />
       <recent name="D:\GitHub_Repositories\codigo_facilito\web_page_youtube\img\coffee" />
       <recent name="D:\GitHub_Repositories\codigo_facilito\web_page_youtube\img" />
       <recent name="D:\GitHub_Repositories\codigo_facilito\web_page_youtube" />
@@ -45,7 +50,7 @@
       <option name="presentableId" value="Default" />
       <updated>1599622198650</updated>
       <workItem from="1599622200113" duration="15590000" />
-      <workItem from="1599684173377" duration="2741000" />
+      <workItem from="1599684173377" duration="11369000" />
     </task>
     <servers />
   </component>
