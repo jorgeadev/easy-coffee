@@ -28,6 +28,16 @@ h1, h2, h3, h4, h5 {
     background-blend-mode: darken;
 }
 
+.cover-about {
+    height: 400px;
+    color: white;
+    background-image: url("../img/bar/bar_tender.jpg");
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.25);
+    background-blend-mode: darken;
+}
+
 .cover-small {
     height: 175px;
     background-blend-mode: normal;
@@ -48,13 +58,13 @@ h1, h2, h3, h4, h5 {
     min-height: 9rem;
 }
 
-.products-stripe {
+.products-stripe, .slider {
     overflow-x: scroll;
     padding-top: 1rem;
     padding-bottom: 1rem;
 }
 
-.stripe-container {
+.stripe-container, .slider-container {
     display: flex;
 }
 
@@ -75,4 +85,65 @@ h1, h2, h3, h4, h5 {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+.slider {
+    overflow: hidden;
+}
+
+.slider-container {
+    transform: translateX(0);
+    animation: slider 15s infinite;
+}
+
+.image-container {
+    width: 100%;
+    padding-top: 56.25%;
+    background-position: center;
+    flex-shrink: 0;
+}
+
+.avatar {
+    width: 180px;
+    height: 180px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+@keyframes slider {
+    0% {
+        transform: translateX(0)
+    }
+    10% {
+        transform: translateX(0);
+    }
+    15% {
+        transform: translateX(-100%);
+    }
+    30% {
+       transform: translateX(-100%);
+    }
+    50% {
+        transform: translateX(-200%);
+    }
+    55% {
+        transform: translateX(-200%);
+    }
+    70% {
+        transform: translateX(-300%);
+    }
+    75% {
+        transform: translateX(-300%);
+    }
+    90% {
+        transform: translateX(-400%);
+    }
+    95% {
+        transform: translateX(-400%);
+    }
+    100% {
+        transform: translateX(0);
+    }
 }
